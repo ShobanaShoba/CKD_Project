@@ -2,16 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-26T21:52:23 AEST" name="Default suite" finished-at="2025-04-26T21:52:23 AEST" duration-ms="38">
+  <suite started-at="2025-05-06T13:18:25 AEST" name="Default suite" finished-at="2025-05-06T13:18:33 AEST" duration-ms="8371">
     <groups>
     </groups>
-    <test started-at="2025-04-26T21:52:23 AEST" name="Default test" finished-at="2025-04-26T21:52:23 AEST" duration-ms="38">
-      <class name="Master_project.CKD.AppiumBasics">
-        <test-method signature="AppiumTest()[pri:0, instance:Master_project.CKD.AppiumBasics@1f2586d6]" started-at="2025-04-26T21:52:23 AEST" name="AppiumTest" finished-at="2025-04-26T21:52:23 AEST" duration-ms="9" status="PASS">
+    <test started-at="2025-05-06T13:18:25 AEST" name="Default test" finished-at="2025-05-06T13:18:33 AEST" duration-ms="8371">
+      <class name="Master_project.CKD.WeightReport">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Master_project.CKD.WeightReport@6c40365c]" started-at="2025-05-06T13:18:25 AEST" name="configureAppium" finished-at="2025-05-06T13:18:29 AEST" duration-ms="3968" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppiumTest -->
-      </class> <!-- Master_project.CKD.AppiumBasics -->
+        </test-method> <!-- configureAppium -->
+        <test-method signature="GetintoWeightReport()[pri:1, instance:Master_project.CKD.WeightReport@6c40365c]" started-at="2025-05-06T13:18:29 AEST" name="GetintoWeightReport" finished-at="2025-05-06T13:18:33 AEST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetintoWeightReport -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Master_project.CKD.WeightReport@6c40365c]" started-at="2025-05-06T13:18:33 AEST" name="takeScreenshotOnFailure" finished-at="2025-05-06T13:18:33 AEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetintoWeightReport status=SUCCESS method=WeightReport.GetintoWeightReport()[pri:1, instance:Master_project.CKD.WeightReport@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Master_project.CKD.WeightReport@6c40365c]" started-at="2025-05-06T13:18:33 AEST" name="TearDown" finished-at="2025-05-06T13:18:33 AEST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Master_project.CKD.WeightReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
